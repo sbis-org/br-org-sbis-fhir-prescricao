@@ -1,0 +1,25 @@
+{
+  "id": "BRNaturezaJuridica-1.0",
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2023-10-06T13:36:12.2789731+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/ValueSet/BRNaturezaJuridica-1.0",
+  "version": "1.0",
+  "name": "BRNaturezaJuridica",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-12T13:22:15.2636027+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Identifica a constituição jurídico-institucional das entidades públicas e privadas nos cadastros da administração pública do Brasil.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRNaturezaJuridica",
+        "version": "*"
+      }
+    ]
+  }
+}

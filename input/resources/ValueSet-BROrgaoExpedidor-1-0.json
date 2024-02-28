@@ -1,0 +1,25 @@
+{
+  "id": "BROrgaoExpedidor-1.0",
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2023-10-06T13:35:45.0928994+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/ValueSet/BROrgaoExpedidor-1.0",
+  "version": "1.0",
+  "name": "BROrgaoExpedidor",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-12T13:22:37.450287+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Lista de órgãos responsáveis por expedir documentos no Brasil.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BROrgaoExpedidor",
+        "version": "*"
+      }
+    ]
+  }
+}

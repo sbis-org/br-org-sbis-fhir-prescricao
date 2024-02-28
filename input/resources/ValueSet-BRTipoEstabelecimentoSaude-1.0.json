@@ -1,0 +1,25 @@
+{
+  "id": "BRTipoEstabelecimentoSaude-1.0",
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2023-10-06T13:33:44.9994323+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/ValueSet/BRTipoEstabelecimentoSaude-1.0",
+  "version": "1.0",
+  "name": "Tipo de Estabelecimento de Saúde",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-12T13:27:40.6996671+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "ValueSet utilizado para classificar o tipo de estabelecimento de saúde.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRTipoEstabelecimentoSaude",
+        "version": "*"
+      }
+    ]
+  }
+}

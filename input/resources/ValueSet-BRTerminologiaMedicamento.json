@@ -1,0 +1,41 @@
+{
+  "id": "BRTerminologiaMedicamento",
+  "resourceType": "ValueSet",  
+  "meta": {
+    "lastUpdated": "2023-10-06T13:34:26.9583626+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/ValueSet/BRTerminologiaMedicamento",
+  "version": "01.00",
+  "name": "Terminologia dos medicamentos",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-12-01T13:16:09.8385573+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "ValueSet utilizado para definir a terminologia de um dado medicamento.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRObmCATMAT",
+        "version": "*"
+      },
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRObmEAN",
+        "version": "*"
+      },
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRObmANVISA",
+        "version": "*"
+      },
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRObmAMPP",
+        "version": "*"
+      },
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRObmVMP",
+        "version": "*"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "BRUnidadeFederativa-1.0",
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2023-10-06T13:33:02.5793076+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/ValueSet/BRUnidadeFederativa-1.0",
+  "version": "1.0",
+  "name": "Unidade Federativa",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-12T14:51:21.2223533+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Os estados e o Distrito Federal, entes subnacionais brasileiros.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRDivisaoGeograficaBrasil",
+        "version": "*",
+        "filter": [
+          {
+            "property": "type",
+            "op": "=",
+            "value": "state"
+          }
+        ]
+      }
+    ]
+  }
+}

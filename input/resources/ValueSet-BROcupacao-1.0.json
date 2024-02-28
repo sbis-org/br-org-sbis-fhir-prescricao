@@ -1,0 +1,25 @@
+{
+  "id": "BROcupacao-1.0",
+  "resourceType": "ValueSet",
+  "meta": {
+    "lastUpdated": "2023-10-06T13:36:00.6039253+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/ValueSet/BROcupacao-1.0",
+  "version": "1.0",
+  "name": "Classificação Brasileira de Ocupações - CBO",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-12T13:22:05.8261152+00:00",
+  "publisher": "Ministério do Trabalho e Emprego do Brasil",
+  "description": "Classifica as profissões do mercado de trabalho brasileiro.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRCBO",
+        "version": "*"
+      }
+    ]
+  }
+}

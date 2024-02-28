@@ -1,0 +1,50 @@
+{
+  "id": "BRTipoDocumento",
+  "resourceType": "CodeSystem",
+  "meta": {
+    "lastUpdated": "2023-10-06T13:45:46.9670396+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/CodeSystem/BRTipoDocumento",
+  "version": "201701A",
+  "name": "Tipo de Documento",
+  "status": "draft",
+  "experimental": false,
+  "date": "2020-03-26T13:19:46.9743559+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Classificação dos tipos de documentos compartilhados no Brasil.",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "CMD",
+      "display": "Conjunto Mínimo de Dados",
+      "definition": "Documento público que coleta os dados mínimos dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial."
+    },
+    {
+      "code": "SA",
+      "display": "Sumário de Alta",
+      "definition": "Relato clínico objetivo sobre as intervenções realizadas, as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na internação em estabelecimentos de saúde como: hospital, clínica, hospital-dia, internação domiciliar e urgência."
+    },
+    {
+      "code": "RAC",
+      "display": "Registro de Atendimento Clínico",
+      "definition": "Registro de dados essenciais de uma consulta realizada a um indivíduo no âmbito da atenção básica, especializada ou domiciliar (atendimento diário)."
+    },
+    {
+      "code": "RIA",
+      "display": "Registro de Imunobiológico Administrado"
+    },
+    {
+      "code": "RPM",
+      "display": "Registro de Prescrição de Medicamento"
+    },
+    {
+      "code": "RDM",
+      "display": "Registro de Dispensação de Medicamento"
+    },
+    {
+      "code": "REL",
+      "display": "Resultado de Exame(s) Laboratoriais(s)"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "BRRacaCor",
+  "resourceType": "CodeSystem",
+  "meta": {
+    "lastUpdated": "2023-10-06T13:46:15.5043727+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/CodeSystem/BRRacaCor",
+  "version": "201701A",
+  "name": "Raça/Cor",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-11T18:20:40.0457007+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Códigos para representação de raça/cor.",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Branca"
+    },
+    {
+      "code": "02",
+      "display": "Preta"
+    },
+    {
+      "code": "03",
+      "display": "Parda"
+    },
+    {
+      "code": "04",
+      "display": "Amarela"
+    },
+    {
+      "code": "05",
+      "display": "Indígena"
+    },
+    {
+      "code": "99",
+      "display": "Sem informação"
+    }
+  ]
+}

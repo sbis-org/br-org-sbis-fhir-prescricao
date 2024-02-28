@@ -1,0 +1,26 @@
+{
+  "id": "BRJustificativaIndividuoNaoIdentificado-1.0",
+  "resourceType": "ValueSet",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2023-10-06T13:36:54.194559+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0",
+  "version": "1.0",
+  "name": "BRJustificativaIndividuoNaoIdentificado",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-04-07T20:51:17.5349531+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
+        "version": "*"
+      }
+    ]
+  }
+}

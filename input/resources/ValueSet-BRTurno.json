@@ -1,0 +1,25 @@
+{
+  "id": "BRTurno",
+  "resourceType": "ValueSet",  
+  "meta": {
+    "lastUpdated": "2023-10-06T13:33:30.5049062+00:00"
+  },
+  "language": "pt-BR",
+  "url": "http://prescricao.sbis.org.br/ValueSet/BRTurno",
+  "version": "01.00",
+  "name": "Turno do dia",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-12-01T13:16:09.8385573+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "ValueSet utilizado para definir o turno de um dia.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://prescricao.sbis.org.br/CodeSystem/BRTurno",
+        "version": "*"
+      }
+    ]
+  }
+}
